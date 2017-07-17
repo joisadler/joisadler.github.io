@@ -7,7 +7,7 @@ words_per_minute:   200
 logo:               'assets/img/me.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             ru_IL
+locale:             ru_RU
 url:                https://joisadler.github.io
 baseurl:            /
 
@@ -33,7 +33,7 @@ disqus_shortname:   joisadler-github-io
 # if you don't have any of social below, comment the line.
 #google:
   #plus:            #username
-  #analytics:
+  analytics:        UA-99322644-1
   #verify:
   #ad-client:
   #ad-slot:
@@ -62,7 +62,6 @@ linkedin:           joisadler
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-google_analytics:   UA-99322644-1
 
 # Gems
 gems:
