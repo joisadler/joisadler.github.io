@@ -1,6 +1,6 @@
 ---
 layout: page
-title: О проекте
+title: О чем этот сайт?
 tags: [about, программирование, новичок, работа]
 date: 2017-05-15
 comments: false
