@@ -1,16 +1,15 @@
 	<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
 		<button class="dl-trigger">Open Menu</button>
 		<ul class="dl-menu">
-			<li><a href="{{ site.url }}/">Home</a></li>
+			<li><a href="{{ site.url }}/">Главная</a></li>
 			<li>
-				<a href="#">About</a>
+				<a href="#">О проекте</a>
 				<ul class="dl-submenu">
 					<li>
 						<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class="author-photo">
-						<h4>{{ site.title }}</h4>
-						<p>{{ site.description }}</p>
+						<h2>С нуля до работы<h2><h3>Блог о продвижении новичка к профессии программиста</h3>
 					</li>
-					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Подробнее</span></a></li>
 					{% if site.email %}<li>
                         <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
                     </li>{% endif %}
@@ -86,10 +85,10 @@
 				</ul><!-- /.dl-submenu -->
 			</li>
 			<li>
-				<a href="#">Posts</a>
+				<a href="#">Посты</a>
 				<ul class="dl-submenu">
-					<li><a href="{{ site.url }}/posts/">All Posts</a></li>
-					<li><a href="{{ site.url }}/tags/">All Tags</a></li>
+					<li><a href="{{ site.url }}/posts/">Все посты</a></li>
+					<li><a href="{{ site.url }}/tags/">Все теги</a></li>
 				</ul>
 			</li>
 			{% for link in site.data.navigation %}
