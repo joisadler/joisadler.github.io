@@ -17,9 +17,37 @@ layout: compress
             <div class="content">
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>
-                  <!--  <h4>{{ page.date | russianDate }}</h4> -->
-                  <h4><time datetime="{{page.date | html5date}}">{{page.date | russianDate}}</time></h4>
-              <!--  <h4>{{page.date | russianDate}}</h4> -->
+                  <!-- <h4><time datetime="{{page.date | html5date}}">{{page.date | russianDate}}</time></h4> -->
+
+                  <h4>{% assign m = page.date | date: "%-m" %}
+                      {% assign a = page.date | date: "%a" %}
+                        {% case a %}
+                          {% when 'Sun' %}Вс,
+                          {% when 'Mon' %}Пн,
+                          {% when 'Tue' %}Вт,
+                          {% when 'Wed' %}Ср,
+                          {% when 'Th' %}Чт,
+                          {% when 'Fri' %}Пт,
+                          {% when 'Sat' %}Сб,
+                        {% endcase %}
+                      {{ page.date | date: "%-d" }}
+                      {% case m %}
+                        {% when '1' %}Января
+                        {% when '2' %}Февраля
+                        {% when '3' %}Марта
+                        {% when '4' %}Апреля
+                        {% when '5' %}Мая
+                        {% when '6' %}Июня
+                        {% when '7' %}Июля
+                        {% when '8' %}Августа
+                        {% when '9' %}Сентября
+                        {% when '10' %}Октября
+                        {% when '11' %}Ноября
+                        {% when '12' %}Декабря
+                      {% endcase %}
+                      {{ page.date | date: "%Y" }}
+                  </h4>
+
                     {% if site.reading_time %}
                     <p class="reading-time">
                       <i class="fa fa-clock-o"></i>
