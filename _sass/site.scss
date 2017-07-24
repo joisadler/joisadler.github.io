@@ -220,3 +220,25 @@ header .entry-meta {
         background-position: center center;
     }
 }
+
+//Page navigation
+.PageNavigation {
+  @include font-size(18);
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+	i {
+		font-size: 16px;
+	}
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
