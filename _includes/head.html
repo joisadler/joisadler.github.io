@@ -27,6 +27,7 @@
     <meta name="google-site-verification" content="{{ site.google.verify }}">{% endif %}
     {% if site.bing-verify %}    <meta name="msvalidate.01" content="{{ site.bing-verify }}">{% endif %}
     {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+    <meta name="yandex-verification" content="c1da3a6cedca084e" />
     <link rel="canonical" href="{{ canonical }}">
     <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
     <!-- Handheld -->
