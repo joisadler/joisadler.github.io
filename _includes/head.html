@@ -35,6 +35,11 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+    <!-- JS -->
+    <script async src="{{ site.url }}/assets/js/modernizr-3.3.1.custom.min.js"></script>
+
+
     <!-- Background Image -->
     {% if site.background %}
     {% capture background %}{{ site.background }}{% endcapture %}
@@ -47,11 +52,6 @@
     {% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <style type="text/css">.feature {background-image:url({{ feature }});}</style>
     {% endif %}
-
-    <!-- JS -->
-    <script async src="{{ site.url }}/assets/js/modernizr-3.3.1.custom.min.js"></script>
-
-
 
 
     <!-- CSS -->
