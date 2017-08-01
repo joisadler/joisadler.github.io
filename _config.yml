@@ -9,7 +9,7 @@ background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             ru_RU
 url:                https://joisadler.me
-baseurl:            /
+baseurl:            ""
 
 # Jekyll
 permalink:          /:title/
