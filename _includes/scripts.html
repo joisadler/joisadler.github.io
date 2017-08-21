@@ -5,9 +5,23 @@
     <script src="{{ site.url }}/assets/js/jquery.magnific-popup.min.js"></script>
     <script src="{{ site.url }}/assets/js/jquery.fitvid.min.js"></script>
     <script src="{{ site.url }}/assets/js/scripts.js"></script>
-    <script id="dsq-count-scr" src="//joisadler-github-io.disqus.com/count.js" async></script>
 
-<!-- google analytics -->
+    <!--"depressive" gray text-->
+        <script>
+          const depressive = document.getElementById("depressive");
+          function mouseOver() {
+            document.getElementById("depressive").style.color = "black";
+          };
+          function mouseOut() {
+            document.getElementById("depressive").style.color = "lightgray";
+          };
+          depressive.addEventListener('mouseover', mouseOver);
+          depressive.addEventListener('mouseout', mouseOut);
+        </script>
+
+
+    <script id="dsq-count-scr" src="//joisadler-github-io.disqus.com/count.js" async></script>
+    <!-- google analytics -->
     {% if site.google.analytics %}
     <script src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script>
     <script>
