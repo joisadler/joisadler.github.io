@@ -1,5 +1,5 @@
 current directory: /Users/yossi/Projects/joisadler.github.io/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.3/ext/ffi_c
-/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/Cellar/ruby/3.0.2/lib/ruby/3.0.0 -r ./siteconf20210811-86770-5aa0uo.rb extconf.rb
+/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/Cellar/ruby/3.0.2/lib/ruby/3.0.0 -r ./siteconf20210813-8790-yja8i9.rb extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi,/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ffi,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ffi... yes
 checking for ffi_prep_closure_loc() in -lffi... yes
@@ -42,4 +42,4 @@ linking shared-object ffi_c.bundle
 
 current directory: /Users/yossi/Projects/joisadler.github.io/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.3/ext/ffi_c
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20210811-86770-8vpud1
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20210813-8790-6joxwj

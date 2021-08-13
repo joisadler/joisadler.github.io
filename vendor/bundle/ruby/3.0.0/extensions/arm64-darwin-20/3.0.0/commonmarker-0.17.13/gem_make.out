@@ -1,5 +1,5 @@
 current directory: /Users/yossi/Projects/joisadler.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.17.13/ext/commonmarker
-/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/Cellar/ruby/3.0.2/lib/ruby/3.0.0 -r ./siteconf20210813-7850-7jmh69.rb extconf.rb
+/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/Cellar/ruby/3.0.2/lib/ruby/3.0.0 -r ./siteconf20210813-8790-6welwh.rb extconf.rb
 creating Makefile
 
 current directory: /Users/yossi/Projects/joisadler.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.17.13/ext/commonmarker
@@ -91,4 +91,4 @@ linking shared-object commonmarker/commonmarker.bundle
 
 current directory: /Users/yossi/Projects/joisadler.github.io/vendor/bundle/ruby/3.0.0/gems/commonmarker-0.17.13/ext/commonmarker
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20210813-7850-6et2mp/commonmarker
+/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20210813-8790-rqhbqe/commonmarker

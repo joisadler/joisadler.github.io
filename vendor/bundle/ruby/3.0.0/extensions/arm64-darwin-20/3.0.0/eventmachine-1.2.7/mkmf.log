@@ -140,7 +140,7 @@ checked program was:
 "clang -fdeclspec -o conftest -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0/arm64-darwin20 -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0/ruby/backward -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0 -I.  -I/opt/homebrew/opt/libyaml/include -I/opt/homebrew/opt/openssl@1.1/include -I/opt/homebrew/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe conftest.c  -L. -L/opt/homebrew/Cellar/ruby/3.0.2/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib -L. -fstack-protector-strong -L/opt/homebrew/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib  -m64   -lcrypto -lssl -lruby.3.0  -lcrypto -lssl  "
 Undefined symbols for architecture arm64:
   "_rb_thread_blocking_region", referenced from:
-      _t in conftest-cabb6d.o
+      _t in conftest-5cbd4e.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -303,7 +303,7 @@ checked program was:
 "clang -fdeclspec -o conftest -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0/arm64-darwin20 -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0/ruby/backward -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0 -I.  -I/opt/homebrew/opt/libyaml/include -I/opt/homebrew/opt/openssl@1.1/include -I/opt/homebrew/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe conftest.c  -L. -L/opt/homebrew/Cellar/ruby/3.0.2/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib -L. -fstack-protector-strong -L/opt/homebrew/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib  -m64   -lcrypto -lssl -lruby.3.0  -lcrypto -lssl  "
 Undefined symbols for architecture arm64:
   "_rb_enable_interrupt", referenced from:
-      _t in conftest-f656e9.o
+      _t in conftest-767a3b.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -484,7 +484,7 @@ checked program was:
 "clang -fdeclspec -o conftest -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0/arm64-darwin20 -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0/ruby/backward -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0 -I.  -I/opt/homebrew/opt/libyaml/include -I/opt/homebrew/opt/openssl@1.1/include -I/opt/homebrew/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe conftest.c  -L. -L/opt/homebrew/Cellar/ruby/3.0.2/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib -L. -fstack-protector-strong -L/opt/homebrew/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib  -m64   -lcrypto -lssl -lruby.3.0  -lcrypto -lssl  "
 Undefined symbols for architecture arm64:
   "_pipe2", referenced from:
-      _t in conftest-94363a.o
+      _t in conftest-8da2a9.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -540,7 +540,7 @@ checked program was:
 "clang -fdeclspec -o conftest -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0/arm64-darwin20 -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0/ruby/backward -I/opt/homebrew/Cellar/ruby/3.0.2/include/ruby-3.0.0 -I.  -I/opt/homebrew/opt/libyaml/include -I/opt/homebrew/opt/openssl@1.1/include -I/opt/homebrew/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe conftest.c  -L. -L/opt/homebrew/Cellar/ruby/3.0.2/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib -L. -fstack-protector-strong -L/opt/homebrew/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib  -m64   -lcrypto -lssl -lruby.3.0  -lcrypto -lssl  "
 Undefined symbols for architecture arm64:
   "_accept4", referenced from:
-      _t in conftest-ac1f06.o
+      _t in conftest-34adcc.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
